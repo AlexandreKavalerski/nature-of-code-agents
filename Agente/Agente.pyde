@@ -27,7 +27,6 @@ def draw():
     vehicle.display()
     
     # Atualizando posicao da comida
-    food.update()
     food.display()
     
     # Carro indo até a comida
@@ -37,5 +36,3 @@ def draw():
         food.changeLocation(width, height)
         # Aumento a quantidade de pontos
         counter.increaseScore()
-        
-    print(calc_distance)
